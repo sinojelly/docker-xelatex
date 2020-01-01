@@ -21,3 +21,4 @@ RUN apt update && \
 # Export the output data
 WORKDIR /data
 VOLUME ["/data"]
+EXPOSE 5000
